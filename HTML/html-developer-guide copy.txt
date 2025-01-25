@@ -1,0 +1,119 @@
+HTML - Hypertext markup language.
+       html has collections of pre-defined tag.
+       html tags use to create basic structure of webpage.
+       html tags has limited property and values due to this limitations css and js required.
+       html tags use to collect input from user and display output to user via web browser.
+
+How it work ?
+    Responsive webpage = HTML(tag) + CSS( property and value )
+    Dynamic webpage = HTML(tags) + CSS( property and value ) + JavaScript( functionality )
+
+Note - CSS - use to change look and feel of webpage
+
+Tag ?
+    <> - open tag 
+    </> - close tag 
+
+Type of tag ?
+    1. input tags - it collect input from user
+    2. output tags - it display output to user 
+
+Structure of html tags ?
+    1. Dependent tag / paired tag - those html tags that open and close seprate
+        example
+            <html> </html>
+            <h1>   </h1>
+            <body> </body>
+
+    2. indepedent tag / un-paired tag - those html tags that has only open 
+        example
+            <br>
+            <img>
+            <hr>
+        Note - React JSX Do not support indepedent tag.
+
+    3. self closing tag - those html tags that has open and close together
+        example
+        <br/>
+        <img/>
+        <hr/> 
+       Note - it support in all js library and framework.. 
+
+
+Behavior of html tags ?
+    1. block level tag - if the html tags print statement in new line 
+    2. inline tag - if the html tag print statement in same line 
+
+Using CSS ?
+    ->inline tag - convert into block level tag 
+    ->block level tag - convert into inline tag 
+it is called responsive webpage.
+----------------------------------------------------------------------------------
+    => Tags 
+        ->input tag  - to collect input
+        ->output tag - to display output 
+        ->Dependent tag / paired tag - it has open and close seprate
+        ->indepedent tag / un-paired tag - it has only open 
+        ->self closing tag - it has open and close together
+        ->block level tag - it print statement in new line
+        ->inline tag - it print statement in same line (side by side)
+----------------------------------------------------------------------------------
+
+
+Property in table
+->align (left, right, center)
+->valign (top, middle, bottom)
+->border
+->bordercolor
+->cellpadding it apply space inside the th and td
+->cellspacing it apply space outside of th and td
+->rowspan it combine space of multiple row top to bottom
+->colspan it combine space of multiple columns left to right
+
+List of input tags
+
+
+->text
+->number
+->email
+->password
+->textarea it collect multi line input from user
+->file
+to upload any file
+->select
+choose from given option
+
+->date
+date picker
+->checkbox - choose 1 or many out of many
+->radio-- choose any one from many
+>> Button--
+
+
+
+Property in input elements
+placeholder--- it is for input guidance
+size-- it reset width (text, email, password)
+maxlength-- it reset input limit (text, email, password, textarea)
+row-- it increase height of textarea
+cols-- it increase width of textarea
+name-- it pass value to backend
+tabindex-- it set sequence for cursor move
+value-- it use to display default value in input elements
+readonly-- it reset readonly, default value can not edit. but default value can pass to backend
+disabled-- it reset readonly, default value can not edit. but default value can not pass to backend
+ID--- It link Html with CSS and JS
+Class- It link Html with CSS and JS
+
+Form Tag
+    action -  it set url of backend where from data will get submitted
+    method--  it define type of commnication either secure or unsecure 
+         ** method= "get"
+         ** method ="post"
+         ** method ="delete"
+         ** method= "put"
+         ** method="patch"
+
+
+
+--------------------------------------------------------------------------------------------------         

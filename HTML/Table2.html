@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 align=" center"> THead, TBody, T foot, Rowspan, Colspan </h1>
+    <table border="1" cellpadding="10" >
+        <thead>
+            <tr bgcolor = "Sky Blue">
+                <th> Emp ID </th>
+                <th> Employee Name </th>
+                <th> City Name </th>
+                <th> Department </th>
+                <th> Salary </th>
+                <th> Reporting </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr bgcolor = "Yellow">
+                <td> 001 </td>
+                <td> Atul </td>
+                <td> Bangalore </td>
+                <td> CSE </td>
+                <td> 20000 </td>
+                <td rowspan="2"> Central Manger </td>
+            </tr>
+            <tr bgcolor = "Yellow">
+                <td> 002 </td>
+                <td> Tulsi </td>
+                <td> Noida </td>
+                <td> CSE </td>
+                <td> 25000 </td>
+                
+            </tr>
+            <tr>
+                <td> 001 </td>
+                <td> Atul </td>
+                <td> Bangalore </td>
+                <td colspan = "3"> CSE </td>
+                
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr bgcolor = "Blue">
+                <th> Emp ID </th>
+                <th> Employee Name </th>
+                <th> City Name </th>
+                <th> Department </th>
+                <th> Salary </th>
+                <th> Reporting </th>
+            </tr>
+        </tfoot>
+        
+    </table>
+</body>
+</html>
