@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Atul",
+        "age": 25,
+        "company": "Microsoft",
+        "address": "New York",
+        "phone_number": "1234567890",
+        "email": "atul@gmail.com",
+        "emp_id": 2233
+    }
+]
